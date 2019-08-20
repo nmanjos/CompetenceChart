@@ -13,5 +13,7 @@ namespace ProperWebAPI.Models
         public Profile Profile { get; set;  }
         public Skill Skill { get; set;  }
         public SkillLevel SkillLevel { get; set;}
+        public int Months { get; set;} // Total Months developing this Skill
+        public SkillCategory SkillCategory { get; set;  }
     }
 }
